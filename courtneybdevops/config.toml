@@ -1,0 +1,129 @@
+baseURL       = "http://example.org/"
+languageCode  = "en-us"
+title         = "Courtney Brown's DevOps Portfolio"
+theme         = "roxo-hugo"
+summarylength = 25
+PublishDir = 'dist'
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "About Courtney Brown"
+    url     = "about"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Portfolio"
+    url     = "portfolio"
+    weight  = 3
+  [[menu.nav]]
+    name    = "Blog Posts"
+    url     = "blog"
+    weight  = 4
+  [[menu.nav]]
+    name    = "Get in touch with me!"
+    url     = "contact"
+    weight  = 5
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "27 JUN 2023"
+  # Meta data
+  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
+  author = "StaticMania"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  fabform  = "https://fabform.io/f/S1nfwhK"
+
+  # Contact Form
+  [params.contactForm]
+    placeholder_first_name        = "First Name"
+    placeholder_last_name         = "Last Name"
+    placeholder_email             = "Email"
+    placeholder_project_type      = "Comment Type"
+    placeholder_about_the_project = "Type away!"
+    send_message                  = "Send message to Courtney."
+
+    [[params.contactForm.projectType]]
+      value = "gd"
+      title  = "Job Inquiry"
+    [[params.contactForm.projectType]]
+      value = "wd"
+      title  = "Compliments to the web designer, ME :)"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Get in touch"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/Software-Engineering-Jobs-Blog.jpeg"
+    heading               = "Courtney Brown's Portfolio and Project Blog!"
+    tagline               = "Thank you for visiting"
+    primary_button        = "GitHub"
+    primary_button_url    = "https://github.com/cbmarie255"
+    secondary_button      = "Contact Info"
+    secondary_button_url  = "contact"
+
+  [params.portfolio]
+    enable    = true
+    title     = "My most recent work"
+    subtitle  = "Check out some of my most successful technical projects!"
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "Let me work for you!"
+    primary_button      = "Submit Query :)"
+    primary_button_url  = "contact"
+    secondary_button    = "Not Convinced Yet :("
+    secondary_button_url = "portfolio"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contact Info"
+      address = "Courtney Brown<br>Philadelphia, PA 19141"
+      email   = "court.b1993@gmail.com"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "About Courtney"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Projects"
+          url  = "portfolio"
+        [[params.footer.sitemap.link]]
+          name = "Blog"
+          url  = "blog"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social Media"
+        [[params.footer.social.link]]
+          name = "Medium"
+          url  = "https://medium.com/@court.b1993"
+        [[params.footer.social.link]]
+          name = "LinkedIn"
+          url  = "https://www.linkedin.com/in/courtneybrown255/"
+        [[params.footer.social.link]]
+          name = "GitHub"
+          url  = "https://github.com/cbmarie255"
+
+      # Footer Service
+      [params.footer.service]
+        title       = "My technical stack includes:"
+        description = "- CI/CD infrastructures & tools<br>- Scripting in Bash and Python<br>- C Programming (including memory allocation)<br>- Object-oriented programming in Python and JavaScript<br>- Website building via Hugo & Netlify<br>- Automation of the build and deployment processes via GitHub Actions and Jenkins"

@@ -1,0 +1,14 @@
+enable : true
+heading : "Check out the stats:"
+counter_item: 
+  - title: "Yearly GitHub Contributions"
+    number: "1,212"
+
+  - title: "Technical Projects Completed"
+    number: "124"
+
+  - title: "Work Experience:"
+    number: "13+ years"
+
+  - title: "Cups of Coffee"
+    number: "None, I'm the only software engineer in the world who hates caffeine!"

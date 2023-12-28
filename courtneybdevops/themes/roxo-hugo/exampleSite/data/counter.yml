@@ -1,0 +1,14 @@
+enable : true
+heading : "Check out the stats --->"
+counter_item: 
+  - title: "Yearly GitHub Contributions:"
+    number: "1,212"
+
+  - title: "Technical Projects Completed:"
+    number: "124"
+
+  - title: "Certifications:"
+    number: "Computer Science and DevOps Engineering (from Holberton Coding School Tulsa)"
+
+  - title: "Cups of Coffee:"
+    number: "None, 'cause I do this lol!"
